@@ -84,7 +84,7 @@ img {
 }
 
 /* ========Desktop======== */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
   }
@@ -212,7 +212,7 @@ img {
 }
 
 /* ========Desktop======== */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .contact-info {
     display: flex;
   }
@@ -249,7 +249,7 @@ img {
 }
 
 /* ========Desktop======== */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .mobile-menu-button {
     display: none;
   }
@@ -303,7 +303,7 @@ img {
 }
 
 /* ========Desktop======== */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .main-hero {
     padding: 188px 0;
     max-width: 1440px;
@@ -345,7 +345,7 @@ img {
 }
 
 /* ========Desktop======== */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .main-title {
     max-width: 496px;
     font-size: 56px;
@@ -441,7 +441,7 @@ img {
 }
 
 /* ========Desktop======== */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .benefits-section {
     padding: 120px 0;
   }
@@ -592,7 +592,7 @@ img {
 }
 
 /* ========Desktop======== */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .our-team-section {
     padding: 120px 0;
   }
@@ -684,7 +684,7 @@ img {
 }
 
 /* ========Desktop======== */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .portfolio {
     padding: 120px 0;
   }
@@ -1008,7 +1008,7 @@ img {
 }
 
 /* ========Desktop======== */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .footer-page {
     padding: 100px 0;
   }
@@ -1094,7 +1094,9 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 288px;
-  min-height: 623px;
+  overflow: auto;
+  height: 95%;
+  max-height: 623px;
   padding: 72px 16px 24px 16px;
   background-color: #fcfcfc;
   border-radius: 4px;
@@ -1234,6 +1236,7 @@ img {
 
 .order-form-policy-lable {
   display: flex;
+  align-items: center;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
