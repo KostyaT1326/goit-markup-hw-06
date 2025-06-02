@@ -124,7 +124,7 @@ img {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -1126,7 +1126,7 @@ img {
 
 .modal-label {
   font-size: 12px;
-  line-height: 1.17;
+  line-height: 1.2;
   letter-spacing: 0.04em;
   color: #8e8f99;
   display: block;
@@ -1181,7 +1181,7 @@ img {
 
 .modal-label-input-message {
   font-size: 12px;
-  line-height: 1.17;
+  line-height: 1.2;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   width: 100%;
@@ -1190,6 +1190,7 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   resize: none;
+  vertical-align: top;
 
   outline: transparent;
   background-color: transparent;
@@ -1238,7 +1239,7 @@ img {
   display: flex;
   align-items: center;
   font-size: 12px;
-  line-height: 1.17;
+  line-height: 1.2;
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
